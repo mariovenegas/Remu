@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ingreso.page.scss'],
 })
 export class IngresoPage implements OnInit {
+  usuario={
+    email: '',
+    pasword: '',
+  }
+
+
 
   constructor() { }
 
   ngOnInit() {
   }
-
+  onSubmit(){
+    
+  }
 }

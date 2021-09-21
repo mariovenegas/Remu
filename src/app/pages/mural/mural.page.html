@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header class="ion-no-border" translucent>
   <ion-toolbar>
     <ion-buttons slot ="start">
       <ion-menu-button menu="first" color="primary"></ion-menu-button>
@@ -7,10 +7,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-padding" fullscreen>
   <ion-list>
     <ion-item>
-      <ion-avatar (click)="mostrarModal('Jose Rodrigues', 'Gasfiter')" slot="start">
+      <ion-avatar (click)="mostrarModal('Jose Rodrigues', 'Gasfiter con 20 años de experiencia')" slot="start">
         <ion-img src="/assets/gente1.jpg">
         </ion-img>
       </ion-avatar>
@@ -18,7 +18,7 @@
       <ion-label slot="end">gasfiter</ion-label>
     </ion-item>
     <ion-item>
-      <ion-avatar (click)="mostrarModal('Imelda', 'planchado')" slot="start">
+      <ion-avatar (click)="mostrarModal('Imelda', 'planchado, 40 años de experiencia')" slot="start">
         <ion-img src="/assets/gente2.jpg">
         </ion-img>
       </ion-avatar>
